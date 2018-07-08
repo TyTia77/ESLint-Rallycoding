@@ -3,9 +3,9 @@ module.exports = {
     'jsx-a11y',
     'react'
   ],
-  ecmaFeatures: {
-    jsx: true
-  },
+  // ecmaFeatures: {
+  //   jsx: true
+  // },
   rules: {
     // Enforce that anchors have content
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/anchor-has-content.md
@@ -35,7 +35,7 @@ module.exports = {
 
     // Require <img> to have a non-empty `alt` prop, or role="presentation"
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/img-has-alt.md
-    'jsx-a11y/img-has-alt': 2,
+    // 'jsx-a11y/img-has-alt': 2,
 
     // Prevent img alt text from containing redundant words like "image", "picture", or "photo"
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/img-redundant-alt.md
@@ -43,7 +43,7 @@ module.exports = {
 
     // require that JSX labels use "htmlFor"
     // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-for.md
-    'jsx-a11y/label-has-for': [2, ['label']],
+    // 'jsx-a11y/label-has-for': [2, ['label']],
 
     // require that mouseover/out come with focus/blur, for keyboard-only users
     // TODO: evaluate

@@ -7,9 +7,9 @@ module.exports = {
       jsx: true,
     },
   },
-  ecmaFeatures: {
-    jsx: true
-  },
+  // ecmaFeatures: {
+  //   jsx: true
+  // },
 
   // View link below for react rules documentation
   // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
@@ -150,7 +150,7 @@ module.exports = {
 
     // Prevent usage of unknown DOM property
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unknown-property.md
-    'react/no-unknown-property': 2,
+    'react/no-unknown-property': 0,
 
     // Require ES6 class declarations over React.createClass
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-es6-class.md
@@ -170,7 +170,7 @@ module.exports = {
 
     // Restrict file extensions that may be required
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-extension.md
-    'react/require-extension': [2, { extensions: ['.jsx', '.js'] }],
+    'react/require-extension': [0, { extensions: ['.jsx', '.js'] }],
 
     // Require render() methods to return something
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-render-return.md
@@ -200,11 +200,11 @@ module.exports = {
 
     // Prevent missing parentheses around multilines JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-wrap-multilines.md
-    'react/jsx-wrap-multilines': [2, {
-      declaration: true,
-      assignment: true,
-      return: true
-    }],
+    // 'react/jsx-wrap-multilines': [2, {
+    //   declaration: true,
+    //   assignment: true,
+    //   return: true
+    // }],
     'react/wrap-multilines': 0, // deprecated version
 
     // Require that the first prop in a JSX element be on a new line when the element is multiline

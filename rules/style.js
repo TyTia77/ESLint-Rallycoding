@@ -1,7 +1,7 @@
 module.exports = {
   rules: {
     // enforce spacing inside array brackets
-    'array-bracket-spacing': ['error', 'never'],
+    'array-bracket-spacing': 2,
 
     // enforce spacing inside single-line blocks
     // http://eslint.org/docs/rules/block-spacing
@@ -11,7 +11,7 @@ module.exports = {
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
 
     // require camel case names
-    camelcase: ['error', { properties: 'never' }],
+    // camelcase: ['error', { properties: 'never' }],
 
     // enforce spacing before and after comma
     'comma-spacing': ['error', { before: false, after: true }],
@@ -56,7 +56,7 @@ module.exports = {
 
     // specify whether double or single quotes should be used in JSX attributes
     // http://eslint.org/docs/rules/jsx-quotes
-    'jsx-quotes': ['off', 'prefer-double'],
+    'jsx-quotes': ['error', 'prefer-single'],
 
     // enforces spacing between keys and values in object literal properties
     'key-spacing': ['error', { beforeColon: false, afterColon: true }],
@@ -84,9 +84,9 @@ module.exports = {
 
     // specify the maximum length of a line in your program
     // http://eslint.org/docs/rules/max-len
-    'max-len': ['error', 100, 2, {
+    'max-len': ['error', 110, 2, {
       ignoreUrls: true,
-      ignoreComments: false
+      ignoreComments: true
     }],
 
     // specify the max number of lines in a file
@@ -212,7 +212,7 @@ module.exports = {
     // disallow the use of Boolean literals in conditional expressions
     // also, prefer `a || b` over `a ? a : b`
     // http://eslint.org/docs/rules/no-unneeded-ternary
-    'no-unneeded-ternary': ['error', { defaultAssignment: false }],
+    // 'no-unneeded-ternary': ['error', { defaultAssignment: false }],
 
     // disallow whitespace before properties
     // http://eslint.org/docs/rules/no-whitespace-before-property
@@ -264,7 +264,7 @@ module.exports = {
     'require-jsdoc': 'off',
 
     // require or disallow use of semicolons instead of ASI
-    semi: ['error', 'always'],
+    semi: ['error', 'never'],
 
     // enforce spacing before and after semicolons
     'semi-spacing': ['error', { before: false, after: true }],

@@ -20,7 +20,7 @@ module.exports = {
     curly: ['error', 'multi-line'],
 
     // require default case in switch statements
-    'default-case': ['error', { commentPattern: '^no default$' }],
+    // 'default-case': ['error', { commentPattern: '^no default$' }],
 
     // encourages use of dot notation whenever possible
     'dot-notation': ['error', { allowKeywords: true }],
@@ -51,7 +51,7 @@ module.exports = {
     'no-div-regex': 'off',
 
     // disallow else after a return in an if
-    'no-else-return': 'error',
+    // 'no-else-return': 'error',
 
     // disallow empty functions, except for standalone funcs/arrows
     // http://eslint.org/docs/rules/no-empty-function
@@ -162,7 +162,7 @@ module.exports = {
     // disallow reassignment of function parameters
     // disallow parameter object manipulation
     // rule: http://eslint.org/docs/rules/no-param-reassign.html
-    'no-param-reassign': ['error', { props: true }],
+    'no-param-reassign': 0,
 
     // disallow usage of __proto__ property
     'no-proto': 'error',

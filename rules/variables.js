@@ -23,7 +23,7 @@ module.exports = {
     'no-shadow-restricted-names': 'error',
 
     // disallow use of undeclared variables unless mentioned in a /*global */ block
-    'no-undef': 'error',
+    'no-undef': 0,
 
     // disallow use of undefined when initializing variables
     'no-undef-init': 'error',
@@ -33,7 +33,7 @@ module.exports = {
     'no-undefined': 'off',
 
     // disallow declaration of variables that are not used in the code
-    'no-unused-vars': ['error', { vars: 'local', args: 'after-used' }],
+    'no-unused-vars': 0,
 
     // disallow use of variables before they are defined
     'no-use-before-define': 'error'

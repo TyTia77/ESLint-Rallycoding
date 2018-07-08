@@ -36,9 +36,9 @@ module.exports = {
 
     // disallow arrow functions where they could be confused with comparisons
     // http://eslint.org/docs/rules/no-confusing-arrow
-    'no-confusing-arrow': ['error', {
-      allowParens: true,
-    }],
+    // 'no-confusing-arrow': ['error', {
+    //   allowParens: true,
+    // }],
 
     // disallow modifying variables that are declared using const
     'no-const-assign': 'error',
@@ -116,7 +116,7 @@ module.exports = {
 
     // suggest using template literals instead of string concatenation
     // http://eslint.org/docs/rules/prefer-template
-    'prefer-template': 'error',
+    // 'prefer-template': 'error',
 
     // disallow generator functions that do not have yield
     // http://eslint.org/docs/rules/require-yield
